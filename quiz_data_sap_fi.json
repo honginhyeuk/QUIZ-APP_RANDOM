@@ -497,7 +497,7 @@
         "infoType": "SAP FI",
         "infoTime": "SAP FI",
         "infoNumber": "31",
-        "infoQuestion": "",
+        "infoQuestion": "What does the fiscal year variant define? Note: There are 2 correct answe-rs to this que-stion.",
         "infoChoice": [
             "The start and end date of posting periods",
             "The authorization to post to special periods",
