@@ -547,7 +547,7 @@
         "infoType": "SAP FI",
         "infoTime": "SAP FI",
         "infoNumber": "34",
-        "infoQuestion": "",
+        "infoQuestion": "Your organization has heard about SAP Intercompany Matching and Reconciliation (ICMR) and is wondering whether it could address their needs.For which purposes can ICMR be useful?Note: There are 2 correct answe-rs to this que-stion.",
         "infoChoice": [
             "To trigger elimination of intercompany revenues & costs based on rules configured",
             "To generate automatic elimination of intercompany AR/AP balances",
