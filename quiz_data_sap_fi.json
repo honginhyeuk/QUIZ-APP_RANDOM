@@ -805,7 +805,6 @@
         "infoNumber": "49",
         "infoQuestion": "You want to implement purchase order accruals in SAP S/4HAN A. Which of the following use cases are relevant? Note: There are 2 correct answe-rs to this que-stion.",
         "infoChoice": [
-            "Which of the following use cases are relevant?",
             "Purchase of fixed assets (using direct capitalization method)",
             "Purchase of consumable materials",
             "Purchase of raw materials for inventory",
@@ -1129,7 +1128,6 @@
         "infoNumber": "68",
         "infoQuestion": "You need to explain the concept of noted items in SAP S/4HAN A. Which characteristics are specific to noted items? Note: There are 3 correct answe-rs to this que-stion.",
         "infoChoice": [
-            "Which characteristics are specific to noted items?",
             "They generate postings that do not balance.",
             "They can be accessed by the payment program and the dunning program.",
             "They update the general ledger in Entry View only.",
