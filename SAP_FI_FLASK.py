@@ -39,8 +39,6 @@ def shuffle_choices_with_mapping(question):
 
 @app.route("/", methods=["GET", "POST"])
 def quiz():
-
-    
     if request.method == "POST":
     try:
         print("POST 요청 수신")
@@ -59,7 +57,6 @@ def quiz():
     except Exception as e:
         print(f"POST 처리 중 오류 발생: {e}")
         return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
-
 
     
     if "shuffled_indices" not in session:
