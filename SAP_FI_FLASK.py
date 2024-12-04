@@ -41,6 +41,9 @@ def shuffle_choices_with_mapping(question):
 
 @app.route("/", methods=["GET", "POST"])
 def quiz():
+    
+    global quiz_data
+    random.shuffle(quiz_data)  # 요청 시마다 퀴즈 데이터 섞기
     # URL에서 question_index 가져오기, 기본값은 0
     question_index = int(request.args.get("question_index", 0))
     result = request.args.get("result", "")
