@@ -20,8 +20,14 @@ def load_quiz_data():
 quiz_data = load_quiz_data()
 
 def shuffle_choices_with_mapping(question):
-    choices = question['infoChoice']
-    correct_answers = question['infoAnswer']
+    choices = question.get('infoChoice', [])
+    correct_answers = question.get('infoAnswer', [])
+    
+    if not choices or not isinstance(choices, list):
+        raise ValueError("보기 데이터가 유효하지 않습니다.")
+    if not correct_answers or not isinstance(correct_answers, list):
+        raise ValueError("정답 데이터가 유효하지 않습니다.")
+
     indexed_choices = list(enumerate(choices))
     random.shuffle(indexed_choices)
     shuffled_choices = [(chr(65 + i), choice) for i, (_, choice) in enumerate(indexed_choices)]
@@ -39,8 +45,9 @@ def quiz():
     shuffled_indices = session["shuffled_indices"]
     question_index = int(request.args.get("question_index", 0))
 
-    if question_index >= len(shuffled_indices):
-        return render_template("end.html")
+    # question_index 유효성 검사
+    if question_index < 0 or question_index >= len(shuffled_indices):
+        return redirect(url_for('quiz', question_index=0, result="유효하지 않은 질문 번호입니다."))
 
     actual_question_index = shuffled_indices[question_index]
     question = quiz_data[actual_question_index]
@@ -57,12 +64,15 @@ def quiz():
 
     if request.method == "POST":
         user_answers = request.form.getlist("answer") or []
+        
+        if not new_correct_answers:
+            return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
+
         if sorted(user_answers) == sorted(new_correct_answers):
             result = "정답입니다!"
         else:
             result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-        if not new_correct_answers:
-            return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))    
+
         return redirect(url_for('quiz', question_index=question_index + 1, result=result))
 
     return render_template(
