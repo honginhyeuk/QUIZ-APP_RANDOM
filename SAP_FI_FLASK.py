@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import json
 import os
 import random
+import time
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # 세션 사용을 위해 필요
@@ -14,6 +15,8 @@ def load_quiz_data():
         return json.load(file)
 
 quiz_data = load_quiz_data()
+# 환경 변수 기반 시드 초기화
+random.seed(os.getenv('RANDOM_SEED', time.time()))
 random.shuffle(quiz_data)  # 문제 순서를 무작위로 섞음
 wrong_answers = []  # 오답 문제를 저장할 리스트
 
