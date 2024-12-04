@@ -78,7 +78,9 @@
         <button type="submit">제출</button>
     </form>
 
-    <p>{{ result }}</p>
+    <p>현재 질문 번호: {{ question_index }}</p>
+    <p>총 질문 수: {{ quiz_length }}</p>
+    <p>결과: {{ result }}</p>
 
     <form method="GET" action="{{ url_for('quiz') }}">
         <input type="hidden" name="question_index" value="{{ question_index + 1 }}">
