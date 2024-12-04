@@ -6,7 +6,8 @@ from flask_session import Session  # 서버 측 세션 저장소
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
-app.config["SESSION_TYPE"] = "filesystem"  # 서버 측 세션 저장
+app.config["SESSION_TYPE"] = "filesystem"  # 세션 데이터를 파일로 저장
+app.config["SESSION_PERMANENT"] = False
 Session(app)
 
 # JSON 파일 로드 함수
@@ -73,4 +74,5 @@ def quiz():
     )
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.getenv("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
