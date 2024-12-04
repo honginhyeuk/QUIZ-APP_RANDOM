@@ -56,12 +56,12 @@ def quiz():
     result = request.args.get("result", "")
 
     if request.method == "POST":
-        user_answers = request.form.getlist("answer")
+        user_answers = request.form.getlist("answer") or []
         if sorted(user_answers) == sorted(new_correct_answers):
             result = "정답입니다!"
         else:
             result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-
+    if not new_correct_answers:
         return redirect(url_for('quiz', question_index=question_index + 1, result=result))
 
     return render_template(
