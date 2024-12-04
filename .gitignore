@@ -1,17 +1,8 @@
-# Python 캐시 파일 및 빌드 폴더
 __pycache__/
 *.pyc
 *.pyo
-
-# 가상 환경 폴더
 env/
 .venv/
-
-# VSCode 설정 폴더
 .vscode/
-
-# 환경 변수 파일
 .env
-
-# Cloudtype 로그 파일
 *.log
