@@ -1,0 +1,1390 @@
+[
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "1",
+    "infoQuestion": "Which of the following analyses can you create from the Manage KPIs and Reports app? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Lumira Dashboards",
+      "Multidimensional Reports",
+      "Review Booklets",
+      "SAC Stories",
+      "Object Views"
+    ],
+    "infoAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "2",
+    "infoQuestion": "In the Managed Fixed Assets app, assets that are created in the database but not activated or deactivated are displayed under which tab?",
+    "infoChoice": [
+      "Acquired",
+      "Saved",
+      "Created",
+      "Draft"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "3",
+    "infoQuestion": "Which of the following fields are maintained on the general data segment of the customer business partner? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Communication language",
+      "Bank key",
+      "Payment method",
+      "Company code"
+    ],
+    "infoAnswer": [
+      "A",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "4",
+    "infoQuestion": "In which application can you see the available business context capacity remaining for extension items?",
+    "infoChoice": [
+      "Extensibility Cockpit app",
+      "Extensibility Explorer app",
+      "Extensibility Inventory app",
+      "Custom Reusable Elements app"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "5",
+    "infoQuestion": "What does the asset class determine? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "The G/L accounts for asset transactions",
+      "The inventory number",
+      "The default depreciation key",
+      "The balance sheet structure",
+      "The asset number"
+    ],
+    "infoAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "6",
+    "infoQuestion": "How can you migrate data to S/4HANA Cloud Public Edition?",
+    "infoChoice": [
+      "With XML or CSV templates",
+      "With Core Data Services",
+      "With the zero downtime service",
+      "With a separate SAP HANA database"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "7",
+    "infoQuestion": "On which level do you define maximum amounts for low-value assets? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Valuation area",
+      "Ledger group",
+      "Accounting principle",
+      "Company code"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "8",
+    "infoQuestion": "Which activities can you complete in the Maintain Business Roles SAP Fiori app? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Assign business catalogs to a business role",
+      "Maintain technical catalogs",
+      "Assign PFCG profiles to a business role",
+      "Maintain restrictions"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "9",
+    "infoQuestion": "Which editing options are available in the dunning proposal list? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Change the dunning charges",
+      "Editing the dunning texts",
+      "Edit dunning blocks at account level",
+      "Edit dunning blocks at line item level",
+      "Change the dunning level of an open item"
+    ],
+    "infoAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "10",
+    "infoQuestion": "Through which component do you access your assigned process tasks from the SAP Activate Roadmap of SAP S/4HANA Cloud Public Edition (3-system landscape)?",
+    "infoChoice": [
+      "SAP Central Business Configuration",
+      "SAP Cloud ALM for Service",
+      "SAP Cloud ALM for Implementation",
+      "SAP Cloud ALM for Operations"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "11",
+    "infoQuestion": "How can you process recurring entries? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "You can create a recurring entry without defining a recurrence start date",
+      "You can post recurring entries only through the recurring entry program",
+      "You can schedule recurring entries to start automatically",
+      "You can create a recurring invoice entry based on a template invoice"
+    ],
+    "infoAnswer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "12",
+    "infoQuestion": "Which master record object controls the use of a business partner in accounts payable?",
+    "infoChoice": [
+      "Business partner role",
+      "Business partner category",
+      "Business partner classification",
+      "Business partner grouping"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "13",
+    "infoQuestion": "On what level can you restrict postings using the posting period variants? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Supplier account",
+      "Customer reconciliation account",
+      "G/L account",
+      "Fixed asset number"
+    ],
+    "infoAnswer": [
+      "B",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "14",
+    "infoQuestion": "Which dimension do you use to produce external financial statements based on cost-of-sales accounting?",
+    "infoChoice": [
+      "Functional area",
+      "Segment",
+      "Market segment"
+      "Profit center"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "15",
+    "infoQuestion": "Which activities are applied to the entire system and cannot be changed after confirmation in SAP Central Business Configuration? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Scoping",
+      "Configuration activities",
+      "Fiscal year variant",
+      "Group currency"
+    ],
+    "infoAnswer": [
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "16",
+    "infoQuestion": "What do you use to collect the values that are entered into the configuration activities in SAP Central Business Configuration?",
+    "infoChoice": [
+      "Business Driven Configuration Questionnaire",
+      "SAP Cloud ALM Requirements app",
+      "SAP Cloud ALM Processes app",
+      "Availability and Dependencies of Solution Process Excel"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "17",
+    "infoQuestion": "You post and match an incoming payment to the incorrect customer account. How can you correct the mistake?",
+    "infoChoice": [
+      "Change the customer on the payment document",
+      "Reset the clearing and reverse the document",
+      "Issue a credit memo to the customer",
+      "Contact the customer through correspondence"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "18",
+    "infoQuestion": "You are recording actions for custom process steps in a test automate. When do you press the \"Read\" button on the recording panel? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "To capture a static label on the screen that should be checked during test execution",
+      "To capture a value in a text field that should be stored as a variable",
+      "To capture an error message on the screen that can be used later",
+      "To capture text in a message screen that can be used for data binding later"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "19",
+    "infoQuestion": "In which type of extensibility is the SAP Business Technology Platform used to host a custom extension?",
+    "infoChoice": [
+      "Classic extensibility",
+      "Key user extensibility",
+      "Side-by-side extensibility",
+      "Developer extensibility"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "20",
+    "infoQuestion": "What does a partner line of business configuration expert reference when identifying business processes to cover in the Fit-to-Standard workshops?",
+    "infoChoice": [
+      "SAP Signavio Process Collaboration Hub",
+      "Business Driven Configuration Questionnaire",
+      "Digital Discovery Assessment",
+      "SAP Signavio Journey Modeler"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "21",
+    "infoQuestion": "What does a partner line of business configuration expert reference when identifying business processes to cover in the Fit-to-Standard workshops?",
+    "infoChoice": [
+      "SAP Signavio Process Collaboration Hub",
+      "Business Driven Configuration Questionnaire",
+      "SAP Signavio Journey Modeler",
+      "Digital Discovery Assessment"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "22",
+    "infoQuestion": "Which tasks are mandatory before you can migrate data for a specific object? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Predecessor objects have been migrated",
+      "You select the same migration method previously used for other objects",
+      "All previous migration projects are in the \"Finished\" status",
+      "Permission to migrate the data has been assigned"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "23",
+    "infoQuestion": "What tools enable non-developers to create low/no-code extensions? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "SAP Cloud SDK",
+      "SAP Build",
+      "SAP Business Application Studio",
+      "SAP Fiori extensibility apps"
+    ],
+    "infoAnswer": [
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "24",
+    "infoQuestion": "In the Managed Fixed Assets app, assets that are created in the database but not activated or deactivated are displayed under which tab?",
+    "infoChoice": [
+      "Saved",
+      "Draft",
+      "Created",
+      "Acquired"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "25",
+    "infoQuestion": "Where is the initial list of known integrations documented?",
+    "infoChoice": [
+      "In SAP Cloud ALM",
+      "In the Digital Discovery Assessment",
+      "In the Business Driven Configuration Questionnaire",
+      "In the Fit-to-Standard Workshops"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "26",
+    "infoQuestion": "An SAP Fiori app isn't displaying on the SAP Fiori Launchpad even though the business role granting permission to the app is correctly assigned to the user. How would you troubleshoot? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Check the Role Maintenance app",
+      "Check the space and page(s) assigned to the role",
+      "Check the business role template",
+      "Check the business catalogs assigned to the role",
+      "Check the restrictions for the role"
+    ],
+    "infoAnswer": [
+      "B",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "27",
+    "infoQuestion": "You have started a project that requires help from external workers to submit their hours worked weekly. The manager responsible for this workspace approves the reported times irregularly. This causes the accountants to have to track multiple sources and make manual calculations as they must show the expected expense even for unapproved submissions. Which process automated by SAP S/4HANA system can support the accounting department?",
+    "infoChoice": [
+      "Service entry sheet deferrals",
+      "Purchase order accruals",
+      "Service entry sheet accruals",
+      "Purchase order deferrals"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "28",
+    "infoQuestion": "At which point in the integrated sales process is a balance sheet-relevant accounting document created?",
+    "infoChoice": [
+      "Sales order confirmation",
+      "Quotation",
+      "Sales order creation",
+      "Goods issue"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "29",
+    "infoQuestion": "You have a bank account in foreign currency. During the period, you have posted various deposits to and withdrawals from the account. After the foreign currency valuation run, how does the system evaluate the balance of this account?",
+    "infoChoice": [
+      "In local currency, with the exchange rate valid on the last day of the period",
+      "In local currency, with the exchange rate valid for each transaction",
+      "In foreign currency, converted to local currency on a statistical ledger",
+      "In foreign currency, with no need for conversion"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "30",
+    "infoQuestion": "When processing payments, what are possible functions of reason codes? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Create a sales order",
+      "Automatic posting of a residual item to a specific G/L account",
+      "Control of the account where a residual item is posted",
+      "Control of the type of payment notice sent to a customer"
+    ],
+    "infoAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "31",
+    "infoQuestion": "Which dimensions can be used to provide complete balance sheet reports? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Segment",
+      "Cost center",
+      "Functional area",
+      "Profit center"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "32",
+    "infoQuestion": "Which asset characteristic controls if an asset is under construction?",
+    "infoChoice": [
+      "Settlement profile",
+      "Capitalization date",
+      "Depreciation key",
+      "Asset class"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "33",
+    "infoQuestion": "What is the result of an automatic payment run? Note: There are 3 correct answers to this question. ",
+    "infoChoice": [
+      "Payment plan",
+      "Payment blocks",
+      "Payment log",
+      "Payment documents",
+      "Payment media"
+    ],
+    "infoAnswer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "34",
+    "infoQuestion": "What have SAP S/4HANA Cloud Business Workflows been designed for? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "To create business processes with a high number of people involved in a predefined sequence",
+      "To create very simple release or approval procedures",
+      "To create cross-product workflow procedures",
+      "To create complex, repeated work processes with interactive cycles",
+      "To create standard procedures from SAP Signavio Process Navigator"
+    ],
+    "infoAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "35",
+    "infoQuestion": "A user complains that the financial statement they are producing reports the amounts posted to all new G/L accounts under the \"Unassigned\" node. You check and all accounts are included in the FSV under the correct nodes. What causes the misreporting?",
+    "infoChoice": [
+      "The accounts are not assigned to a functional area and neither are their respective FSV nodes",
+      "The accounts are maintained under different nodes for debit and credit in the FSV",
+      "The FSV key date entered when running the report is in the past"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "36",
+    "infoQuestion": "What are some characteristics of the SAP S/4HANA Migration Cockpit? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Mapping source values to SAP S/4HANA target values",
+      "Extensibility using the Legacy System Migration Workbench",
+      "Combining the local and remote schema approaches into one migration object",
+      "Guidance and simulation of the migration process"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "37",
+    "infoQuestion": "Which of the following are captured in a completed Digital Discovery Assessment? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Business role permission requirements",
+      "Target customer go-live date",
+      "SAP Fiori application extensions",
+      "Known integration requirements"
+    ],
+    "infoAnswer": [
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "38",
+    "infoQuestion": "You want to check why a down payment request was not generated for an item in a purchase order. Where would you check? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "The purchase order line item",
+      "The purchase order header",
+      "The goods receipt line item",
+      "The invoice header"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "39",
+    "infoQuestion": "What can you do when executing a depreciation posting run? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "You can check the posted depreciation for each asset on the FI document",
+      "You can reverse the FI posting documents of the depreciation run",
+      "You can run depreciation separately for each ledger",
+      "You can select to cancel the depreciation run if the program finds errors in individual assets",
+      "You can process a depreciation test run for an individual asset"
+    ],
+    "infoAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "40",
+    "infoQuestion": "What is the relation between the line item displayed for a journal entry in the entry view and the general ledger view?",
+    "infoChoice": [
+      "The general ledger view has as many or more line items as the entry view",
+      "The entry view has as many or more line items as the general ledger view"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "41",
+    "infoQuestion": "What is the correct release code for the second feature delivery in February 2025?",
+    "infoChoice": [
+      "2522",
+      "2502.2",
+      "2025.2",
+      "2025.2.2"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "42",
+    "infoQuestion": "When using the Local SAP S/4HANA Database Schema migration approach, what is the maximum file size? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "160 MB per file",
+      "160 MB per ZIP file",
+      "100 MB per ZIP file",
+      "100 MB per file"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "43",
+    "infoQuestion": "If a customer wants to develop their own custom application and integrate it with SAP S/4HANA Cloud, what tools would you recommend to develop the app? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "SAP Business Application Studio",
+      "SAP HANA Cloud",
+      "SAP Cloud Portal Service",
+      "SAP Build"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "44",
+    "infoQuestion": "Which of the following activities are completed in the Realize phase of the SAP Activate Methodology? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Demonstrate where to find business process documentation",
+      "Gather perceived change impact feedback",
+      "Set up manual test cases in SAP Cloud ALM",
+      "Enter configuration values in SAP Central Business Configuration"
+    ],
+    "infoAnswer": [
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "45",
+    "infoQuestion": "In SAP Central Business Configuration, which activities can you perform in the Product- Specific Configuration Phase? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Create new scope items",
+      "Add new sales organizations",
+      "Add blocking reasons for billing",
+      "Modify building blocks",
+      "Change approval thresholds"
+    ],
+    "infoAnswer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "46",
+    "infoQuestion": "What are the effects of a goods issue posting? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "It posts an accounting document",
+      "It reduces the inventory values",
+      "It generates an invoice for approval",
+      "It increases the inventory value"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "47",
+    "infoQuestion": "Which fields can you define on the chart of accounts level of a G/L account? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Account group",
+      "Account currency",
+      "Functional area",
+      "G/L account type"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "48",
+    "infoQuestion": "How can you define the relationship between business roles and business catalogs?",
+    "infoChoice": [
+      "A business role restricts access to one or more business catalogs",
+      "A business catalog is a collection of one or more business roles",
+      "A business catalog restricts access to one or more business roles",
+      "A business role is a collection of one or more business catalogs"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "49",
+    "infoQuestion": "Which technologies should you use to integrate SAP S/4HANA Cloud Public Edition with  another SAP public cloud solution? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Predelivered APIs",
+      "SAP Integration Suite",
+      "SAP Cloud Connector",
+      "SAP Process Orchestration"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "50",
+    "infoQuestion": "Which layer of SAP S/4HANA provides a universal language to read and process data across different applications?",
+    "infoChoice": [
+      "SAP HANA",
+      "Core Data Services",
+      "SAP Business Suite",
+      "SAP Fiori"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "51",
+    "infoQuestion": "After integration requirements have been finalized, what is used to analyze, design, and document the integration strategy?",
+    "infoChoice": [
+      "Integration and API list",
+      "SAP Cloud ALM Requirements app",
+      "Integration Solution Advisory Methodology",
+      "SAP Business Accelerator Hub"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "52",
+    "infoQuestion": "Where do you find industry cloud solutions to address a customer's unique requirement?",
+    "infoChoice": [
+      "SAP Discovery Center",
+      "SAP Store",
+      "SAP Business Technology Platform",
+      "SAP Signavio Process Navigator"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "53",
+    "infoQuestion": "What is the role of the valuation method in the foreign currency valuation of accounts payable? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Define the posting and reversal date for the valuation posting",
+      "Define the document type for the valuation posting",
+      "Define the valuation procedure",
+      "Define the exchange rate type",
+      "Determine the G/L accounts for the valuation posting"
+    ],
+    "infoAnswer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "54",
+    "infoQuestion": "Which asset accounting-relevant postings are made periodically, typically at the end of the month? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Post transfer",
+      "Settlement of the WBS element",
+      "Depreciation posting",
+      "Post asset acquisition via clearing account"
+    ],
+    "infoAnswer": [
+      "B",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "55",
+    "infoQuestion": "If you cannot find a prepackaged solution process that addresses integration requirements, where would you look?",
+    "infoChoice": [
+      "SAP Signavio Process",
+      "SAP Business Accelerator Hub",
+      "SAP Business Technology Platform",
+      "SAP Discovery Center",
+      "SAP Cloud ALM"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "56",
+    "infoQuestion": "How can you identify an asset number as a main asset number?",
+    "infoChoice": [
+      "By the prefix -1 after the asset number",
+      "By the lack of prefix for the asset",
+      "By the prefix -0 after the asset number",
+      "By the description of the asset"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "57",
+    "infoQuestion": "When processing manual incoming payments, which of the following options can be used to manage payment differences? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Individual value adjustment",
+      "Return payment",
+      "Residual payment",
+      "Partial payment",
+      "Payment on account"
+    ],
+    "infoAnswer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "58",
+    "infoQuestion": "Which field can be changed in a posted invoice? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Invoice amount",
+      "Profit center",
+      "Payment terms",
+      "Line item text",
+      "Reference"
+    ],
+    "infoAnswer": [
+      "B",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "59",
+    "infoQuestion": "How does an implementation consultant support customer experts during Fit-to-Standard workshops? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Conduct end-user training on active scope items",
+      "Demonstrate SAP Best Practices business processes in the starter system",
+      "Determine set up instructions for customer-driven integrations",
+      "Highlight areas that require configuration or customization decisions"
+    ],
+    "infoAnswer": [
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "60",
+    "infoQuestion": "When do you perform the goods and invoice receipt reconciliation process?",
+    "infoChoice": [
+      "When an invoice is posted, but no relevant purchase order is available",
+      "When a purchase order is posted but no invoice has been received",
+      "When a purchase order is posted but no goods receipt has been received",
+      "When an invoice is posted but no goods receipt has been received"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "61",
+    "infoQuestion": "To create a semantic tag, which element do you need to assign to it?",
+    "infoChoice": [
+      "FSV node",
+      "G/L account",
+      "Tag group",
+      "Number range"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "62",
+    "infoQuestion": "You have assigned a business role to an end user who has been granted access to only one specific application. While you have a day off, it turns out that the app doesn't show up on the user's launchpad. What can the user do?",
+    "infoChoice": [
+      "Use the search function to find the app",
+      "Assign a different business role that provides access",
+      "Assign a launchpad space to the business role",
+      "Create a page and assign it to the launchpad space"
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "63",
+    "infoQuestion": "For which fields can you enter time-dependent changes in the asset master record? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Description",
+      "Trading partner number",
+      "Cost center",
+      "WBS Element",
+      "Plant"
+    ],
+    "infoAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "64",
+    "infoQuestion": "Which embedded support offerings can you make use of in the SAP Fiori Launchpad? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Assessment questions from the SAP Learning Hub",
+      "Video tutorials from the SAP Help Portal",
+      "Digital assistance from generative AI (SAP Joule)",
+      "Recorded system simulations from the learning center",
+      "Recorded webinars from the SAP Learning Website"
+    ],
+    "infoAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "65",
+    "infoQuestion": "You use the app Manage Journal Entries to display changes to journal entries. Which changes can be part of the list? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Date the change",
+      "Amount that was changed",
+      "User who made the change",
+      "G/L account that was changed"
+    ],
+    "infoAnswer": [
+      "A",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "66",
+    "infoQuestion": "Which date determines the period of the asset acquisition?",
+    "infoChoice": [
+      "Posting date",
+      "Document date",
+      "Asset value date",
+      "Base date"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "67",
+    "infoQuestion": "Which process in the integrated procure-to-pay process generates a balance sheet-relevant financial accounting document? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Invoice verification",
+      "Material requirement planning",
+      "Goods receipt",
+      "Purchase order creation"
+    ],
+    "infoAnswer": [
+      "A",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "68",
+    "infoQuestion": "Which of the following are steps in an automated payment run process? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Schedule invoice run",
+      "Maintain parameters",
+      "Upload bank statement",
+      "Schedule payment run",
+      "Schedule propose run"
+    ],
+    "infoAnswer": [
+      "B",
+      "D",
+      "E"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "69",
+    "infoQuestion": "In SAP Advanced Financial Closing, you try to generate a task list but receive an error from the consistency check. What could cause this? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Missing user assignments for tasks",
+      "Missing factory calendar assignment for tasks",
+      "Missing task assignments in folders",
+      "Missing organizational unit assignments in folders"
+    ],
+    "infoAnswer": [
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "70",
+    "infoQuestion": "What are some characteristics of public cloud? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Perpetual license",
+      "Software installation on customer site",
+      "Multi-tenant server",
+      "Lower total cost of ownership"
+    ],
+    "infoAnswer": [
+      "C",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "71",
+    "infoQuestion": "In which SAP Activate Methodology phase do consultants configure business processes based on the information gathered in the Fit-to-Standard workshops?",
+    "infoChoice": [
+      "Explore",
+      "Realize",
+      "Prepare",
+      "Deploy"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "72",
+    "infoQuestion": "Based on the SAP Activate Methodology, which activities must you perform in the Explore phase? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Conduct the Fit-to-Standard analysis to gather configuration values",
+      "Conduct the Digital Discovery Assessment to identify extension requirements",
+      "Use the Test system to demonstrate SAP Best Practices process",
+      "Define the organizational structure and chart of accounts"
+    ],
+    "infoAnswer": [
+      "A",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "73",
+    "infoQuestion": "You need to produce additional financial statements according to local GAAP requirements. Which of the following can help?",
+    "infoChoice": [
+      "Functional area",
+      "Journal entry type",
+      "Ledger group",
+      "Profit center group"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "74",
+    "infoQuestion": "What does the journal entry type in general journal document posting control? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Which fields in the document header are mandatory fields",
+      "The document number assigned",
+      "Which fields in the line items are mandatory fields",
+      "The number of possible line items in the FI document"
+    ],
+    "infoAnswer": [
+      "A",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "75",
+    "infoQuestion": "Where are the manual test cases created for customer User Acceptance Testing?",
+    "infoChoice": [
+      "SAP Solution Manager",
+      "SAP Cloud ALM",
+      "SAP Signavio Process Navigator",
+      "Test Automation Tool"
+    ],
+    "infoAnswer": [
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "76",
+    "infoQuestion": "What must you create when you build an integration scenario using the SAP Fiori Communication Management apps in SAP S/4HANA Cloud Public Edition? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "Communication system",
+      "Communication arrangement",
+      "Communication API",
+      "Communication interface"
+    ],
+    "infoAnswer": [
+      "A",
+      "B"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "77",
+    "infoQuestion": "What is the consequence of selecting Enforce SOX Requirements in the SAP Advanced Financial Closing configuration? ",
+    "infoChoice": [
+      "The user responsible is notified by e-mail when a task processing status is changed",
+      "The local system ID is checked to ensure a different system is used by each user",
+      "The system checks that the user responsible for a task is different than the processing user",
+      "The processing user must assign a substitute user in their profile for absences"
+    ],
+    "infoAnswer": [
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "78",
+    "infoQuestion": "What provides a foundation for the SAP Cloud ERP where integrations and extensions live?",
+    "infoChoice": [
+      "SAP Business Accelerator Hub",
+      "SAP Discovery Center",
+      "SAP ABAP Environment",
+      "SAP Business Technology Platform"
+    ],
+    "infoAnswer": [
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "79",
+    "infoQuestion": "Which of the following systems are used to implement SAP S/4HANA Cloud Public Edition for a customer? Note: There are 3 correct answers to this question.",
+    "infoChoice": [
+      "Sandbox system",
+      "Starter system",
+      "Trial system",
+      "Test system",
+      "Development system"
+    ],
+    "infoAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "80",
+    "infoQuestion": "What are the restrictions when posting general journal entries to special periods? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "You must use the document type YE (year-end)",
+      "You must manually enter the specific special period you are posting to",
+      "You must only post to balance sheet accounts",
+      "You must specify a posting date in the last period of the fiscal year"
+    ],
+    "infoAnswer": [
+      "B",
+      "C"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "81",
+    "infoQuestion": "When do you specify the data retention period in SAP S/4HANA Migration Cockpit?",
+    "infoChoice": [
+      "When the project status is \"Not started\"",
+      "When the project status is \"Finished\"",
+      "When the project status is \"In progress\"",
+      "When the project status is \"Completed\""
+    ],
+    "infoAnswer": [
+      "A"
+    ],
+    "infoDesc": ""
+  },
+  {
+    "infoType": "SAP Cloud FI",
+    "infoTime": "SAP S/4HANA 2022",
+    "infoNumber": "82",
+    "infoQuestion": "Which tools does SAP provide to make it easier for customers to maintain their SAP S/4HANA Cloud systems after a release upgrade? Note: There are 2 correct answers to this question.",
+    "infoChoice": [
+      "SAP Signavio Process Navigator Tool",
+      "Release Assessment and Scope Dependency Tool",
+      "What's New Viewer Tool",
+      "Test Automation Tool"
+    ],
+    "infoAnswer": [
+      "B",
+      "D"
+    ],
+    "infoDesc": ""
+  }
+]
