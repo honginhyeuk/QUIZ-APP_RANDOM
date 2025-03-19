@@ -582,10 +582,11 @@
     "infoChoice": [
       "The accounts are not assigned to a functional area and neither are their respective FSV nodes",
       "The accounts are maintained under different nodes for debit and credit in the FSV",
-      "The FSV key date entered when running the report is in the past"
+      "The FSV key date entered when running the report is in the past",
+      "The FSV nodes are assigned to pre-exisiting semantic tags assigned before the new G/L accounts were added"
     ],
     "infoAnswer": [
-      "B"
+      "D"
     ],
     "infoDesc": ""
   },
@@ -666,10 +667,12 @@
     "infoQuestion": "What is the relation between the line item displayed for a journal entry in the entry view and the general ledger view?",
     "infoChoice": [
       "The general ledger view has as many or more line items as the entry view",
-      "The entry view has as many or more line items as the general ledger view"
+      "The entry view has as many or more line items as the general ledger view",
+      "The entry view displays the subledger accounts (such as customer or supplier) while this is not available in the general ledger view",
+      "The general ledger view displays direct account assignments such as the profit center while these are not available in the entry view"
     ],
     "infoAnswer": [
-      "C"
+      "B"
     ],
     "infoDesc": ""
   },
