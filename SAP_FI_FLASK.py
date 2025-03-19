@@ -39,31 +39,32 @@ def shuffle_choices_with_mapping(question):
 
 @app.route("/", methods=["GET", "POST"])
 def quiz():
+    question_index = int(request.args.get("question_index", 0))
+
     if request.method == "POST":
-        try:
+        try:  # 반드시 try 위에 들여쓰기 필요!
             print("POST 요청 수신")
             print(f"폼 데이터: {request.form}")
-    
+
             user_answers = request.form.getlist("answer")
-            print(f"사용자 답변: {user_answers}")
-    
+            new_correct_answers = session.get(f"correct_answers_{question_index}", [])
+
             if sorted(user_answers) == sorted(new_correct_answers):
                 result = "정답입니다!"
             else:
                 result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-            
-            print(f"결과: {result}")
+
             return redirect(url_for('quiz', question_index=question_index + 1, result=result))
+
     except Exception as e:
         print(f"POST 처리 중 오류 발생: {e}")
         return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
 
-    
+    # GET 요청 처리 로직 (질문 표시 부분)
     if "shuffled_indices" not in session:
         session["shuffled_indices"] = random.sample(range(len(quiz_data)), len(quiz_data))
 
     shuffled_indices = session["shuffled_indices"]
-    question_index = int(request.args.get("question_index", 0))
 
     # question_index 유효성 검사
     if question_index < 0 or question_index >= len(shuffled_indices):
@@ -81,19 +82,6 @@ def quiz():
         new_correct_answers = session[f"correct_answers_{question_index}"]
 
     result = request.args.get("result", "")
-
-    if request.method == "POST":
-        user_answers = request.form.getlist("answer") or []
-        
-        if not new_correct_answers:
-            return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
-
-        if sorted(user_answers) == sorted(new_correct_answers):
-            result = "정답입니다!"
-        else:
-            result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-
-        return redirect(url_for('quiz', question_index=question_index + 1, result=result))
 
     return render_template(
         "quiz.html",
