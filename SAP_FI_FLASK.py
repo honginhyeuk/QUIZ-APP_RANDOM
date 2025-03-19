@@ -40,23 +40,23 @@ def shuffle_choices_with_mapping(question):
 @app.route("/", methods=["GET", "POST"])
 def quiz():
     if request.method == "POST":
-    try:
-        print("POST 요청 수신")
-        print(f"폼 데이터: {request.form}")
-
-        user_answers = request.form.getlist("answer")
-        print(f"사용자 답변: {user_answers}")
-
-        if sorted(user_answers) == sorted(new_correct_answers):
-            result = "정답입니다!"
-        else:
-            result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-        
-        print(f"결과: {result}")
-        return redirect(url_for('quiz', question_index=question_index + 1, result=result))
-    except Exception as e:
-        print(f"POST 처리 중 오류 발생: {e}")
-        return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
+        try:
+            print("POST 요청 수신")
+            print(f"폼 데이터: {request.form}")
+    
+            user_answers = request.form.getlist("answer")
+            print(f"사용자 답변: {user_answers}")
+    
+            if sorted(user_answers) == sorted(new_correct_answers):
+                result = "정답입니다!"
+            else:
+                result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
+            
+            print(f"결과: {result}")
+            return redirect(url_for('quiz', question_index=question_index + 1, result=result))
+        except Exception as e:
+            print(f"POST 처리 중 오류 발생: {e}")
+            return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
 
     
     if "shuffled_indices" not in session:
