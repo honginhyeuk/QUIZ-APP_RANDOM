@@ -41,29 +41,8 @@ def shuffle_choices_with_mapping(question):
 def quiz():
     question_index = int(request.args.get("question_index", 0))
 
-    if request.method == "POST":
-        try:  # 반드시 try 위에 들여쓰기 필요!
-            print("POST 요청 수신")
-            print(f"폼 데이터: {request.form}")
-
-            user_answers = request.form.getlist("answer")
-            new_correct_answers = session.get(f"correct_answers_{question_index}", [])
-
-            if sorted(user_answers) == sorted(new_correct_answers):
-                result = "정답입니다!"
-            else:
-                result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
-
-            return redirect(url_for('quiz', question_index=question_index + 1, result=result))
-
-    except Exception as e:
-        print(f"POST 처리 중 오류 발생: {e}")
-        return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
-
-    # GET 요청 처리 로직 (질문 표시 부분)
     if "shuffled_indices" not in session:
         session["shuffled_indices"] = random.sample(range(len(quiz_data)), len(quiz_data))
-
     shuffled_indices = session["shuffled_indices"]
 
     # question_index 유효성 검사
@@ -73,6 +52,7 @@ def quiz():
     actual_question_index = shuffled_indices[question_index]
     question = quiz_data[actual_question_index]
 
+    # 세션에서 선택지와 정답 로드 또는 초기화
     if f"choices_{question_index}" not in session:
         shuffled_choices, new_correct_answers = shuffle_choices_with_mapping(question)
         session[f"choices_{question_index}"] = shuffled_choices
@@ -81,7 +61,28 @@ def quiz():
         shuffled_choices = session[f"choices_{question_index}"]
         new_correct_answers = session[f"correct_answers_{question_index}"]
 
-    result = request.args.get("result", "")
+    result = ""
+
+    if request.method == "POST":
+        try:
+            user_answers = request.form.getlist("answer") or []
+
+            if sorted(user_answers) == sorted(new_correct_answers):
+                result = "정답입니다!"
+            else:
+                result = f"오답입니다! 정답은 {', '.join(new_correct_answers)}입니다."
+
+            # 다음 질문으로 이동 (마지막 질문이면 처음으로)
+            next_question_index = question_index + 1
+            if next_question_index >= len(shuffled_indices):
+                return redirect(url_for('quiz', question_index=0, result="퀴즈가 끝났습니다!"))
+
+            return redirect(url_for('quiz', question_index=next_question_index, result=result))
+        except Exception as e:
+            print(f"오류 발생: {e}")
+            return redirect(url_for('quiz', question_index=question_index, result="오류가 발생했습니다."))
+
+    result = request.args.get("result", result)
 
     return render_template(
         "quiz.html",
